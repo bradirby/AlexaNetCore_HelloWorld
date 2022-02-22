@@ -1,0 +1,60 @@
+﻿{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "my sample skill",
+			"intents": [
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": [
+						"thank you",
+						"thanks",
+						"cancel",
+						"quit",
+						"excellent"
+					]
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.NavigateHomeIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.FallbackIntent",
+					"samples": []
+				},
+				{
+					"name": "SampleSkillIntent",
+					"slots": [
+						{
+							"name": "inputValue",
+							"type": "AMAZON.NUMBER"
+						},
+						{
+							"name": "decimalValue",
+							"type": "AMAZON.NUMBER"
+						},
+						{
+							"name": "sourceType",
+							"type": "measuretype"
+						},
+						{
+							"name": "destType",
+							"type": "measuretype"
+						}
+					],
+					"samples": [
+						"Hello Alexa",
+
+					]
+				}
+			]
+		}
+	}
+}
