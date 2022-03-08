@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AlexaNetCore" Version="0.5.2" />
+    <PackageReference Include="AlexaNetCore" Version="0.6.0" />
     <PackageReference Include="DistanceLibrary" Version="1.0.0" />
     <PackageReference Include="NUnit" Version="3.13.2" />
   </ItemGroup>

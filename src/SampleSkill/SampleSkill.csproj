@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AlexaNetCore" Version="0.5.2" />
+    <PackageReference Include="AlexaNetCore" Version="0.6.0" />
     <PackageReference Include="Amazon.Lambda.Core" Version="2.1.0" />
     <PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.2.0" />
     <PackageReference Include="DistanceLibrary" Version="1.0.0" />
